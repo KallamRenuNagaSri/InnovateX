@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="InnovateX Hackathon — CSI SAHE and GDG VRSEC. Open innovation, prototypes, and presentations. April 11.">
+    <title>InnovateX Hackathon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-landing">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- 1. Navbar -->
+    <header class="landing-nav">
+        <div class="countdown-container">
+            <div class="countdown-top">
+                <span id="countdown-timer"></span>
+                <span class="countdown-label">left for Registration</span>
+            </div>
+            <div class="countdown-sub">Register as soon as possible</div>
+        </div>
+        <div class="container landing-nav__inner">
+            <h2 class="landing-nav__title">
+                CSI SAHE <i class="fa-solid fa-handshake landing-nav__handshake" aria-hidden="true"></i> GDG VRSEC
+            </h2>
+            <button
+                class="landing-nav__toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="landing-nav-drawer"
+                aria-label="Open menu"
+            >
+                <span></span><span></span><span></span>
+            </button>
+            <div class="landing-nav__drawer" id="landing-nav-drawer">
+                <div class="landing-nav__actions">
+                    <a
+                        class="btn-nav-cta btn-nav-cta--primary"
+                        href="https://forms.gle/dSnVY94nHfQaHcYP8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >🚀 Register Now</a>
+                    <a
+                        class="btn-nav-cta btn-nav-cta--secondary"
+                        href="assets/InnovateX_Template.pptx"
+                        download="InnovateX-Template.pptx"
+                    >📥 Download PPT Template</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- 2. Hero -->
+        <section class="landing-hero" aria-labelledby="hero-title">
+            <div class="landing-hero__blobs" aria-hidden="true">
+                <div class="landing-hero__blob landing-hero__blob--1"></div>
+                <div class="landing-hero__blob landing-hero__blob--2"></div>
+                <div class="landing-hero__blob landing-hero__blob--3"></div>
+            </div>
+            <div class="container landing-hero__content">
+                <p class="landing-hero__badge">CSI SAHE 🤝 GDG VRSEC</p>
+                <h1 id="hero-title" class="landing-hero__title">INNOVATEX HACKATHON</h1>
+                <p class="landing-hero__typed-wrap" aria-live="polite">
+                    <span id="typed-output" class="landing-hero__typed"></span>
+                </p>
+                <p class="landing-hero__desc">
+                    Welcome to InnovateX Hackathon — an exciting innovation challenge organized by the Computer Society of India (CSI SAHE) in collaboration with Google Developer Group (GDG VRSEC). This hackathon encourages open innovation and creative problem solving. Students will work in teams to build impactful solutions for real-world challenges and showcase their ideas through functional prototypes. Join us to innovate, collaborate, and turn your ideas into reality.
+                </p>
+            </div>
+        </section>
+
+        <!-- 3. Highlights -->
+        <section class="landing-highlights" aria-labelledby="highlights-title">
+            <div class="container">
+                <div class="section-head">
+                    <h2 id="highlights-title" class="section-head__title">Hackathon Highlights</h2>
+                    <p class="section-head__sub">Everything you need to know before you build.</p>
+                </div>
+                <div class="highlights-grid">
+                    <article class="hl-card">
+                        <span class="hl-card__emoji" aria-hidden="true">📅</span>
+                        <h3 class="hl-card__label">Date & Time</h3>
+                        <p class="hl-card__text">April 10th, 9:30 AM – 5:00 PM</p>
+                    </article>
+                    <article class="hl-card">
+                        <span class="hl-card__emoji" aria-hidden="true">📍</span>
+                        <h3 class="hl-card__label">Venue / Mode</h3>
+                        <p class="hl-card__text">CSE Seminar Hall,<br>Siddhartha Academy of Higher Education<br>Kanuru, Vijayawada</p>
+                    </article>
+                    <article class="hl-card">
+                        <span class="hl-card__emoji" aria-hidden="true">👥</span>
+                        <h3 class="hl-card__label">Team Size</h3>
+                        <p class="hl-card__text">3–4 Members</p>
+                    </article>
+                    <article class="hl-card">
+                        <span class="hl-card__emoji" aria-hidden="true">💡</span>
+                        <h3 class="hl-card__label">Prototype</h3>
+                        <p class="hl-card__text">Prototype must be ready before the event</p>
+                    </article>
+                    <article class="hl-card">
+                        <span class="hl-card__emoji" aria-hidden="true">⏰</span>
+                        <h3 class="hl-card__label">Registration Deadline</h3>
+                        <p class="hl-card__text">April 5th , 11:59 PM</p>
+                    </article>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Meet team -->
+        <section class="landing-team-cta" aria-labelledby="team-cta-title">
+            <div class="container landing-team-cta__inner">
+                <h2 id="team-cta-title" class="landing-team-cta__title">Wanna Meet Our Team</h2>
+                <p class="landing-team-cta__lead">Meet the people powering InnovateX behind the scenes.</p>
+                <a class="btn btn-team-cta" href="team.html">View Organizing Team</a>
+            </div>
+        </section>
+
+        <!-- 5. Roadmap -->
+        <section class="roadmap-section" id="roadmap">
+            <h2 class="roadmap-title">Hackathon Roadmap</h2>
+            <div class="roadmap-timeline">
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <div class="step-circle">1</div>
+                        <div class="roadmap-icon"><i class="fa-solid fa-user-plus"></i></div>
+                        <h3>Registration</h3>
+                        <p>Teams of 3–4 members must register and submit a PPT along with a demo link.</p>
+                    </div>
+                    <span class="roadmap-point"></span>
+                </div>
+                <div class="roadmap-item alt">
+                    <div class="roadmap-content">
+                        <div class="step-circle">2</div>
+                        <div class="roadmap-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+                        <h3> Evaluation (Round 1)</h3>
+                        <p>Submitted projects are reviewed based on innovation and feasibility.</p>
+                    </div>
+                    <span class="roadmap-point"></span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <div class="step-circle">3</div>
+                        <div class="roadmap-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <h3>Shortlisting</h3>
+                        <p>Selected teams receive an email invitation to attend the hackathon.</p>
+                    </div>
+                    <span class="roadmap-point"></span>
+                </div>
+                <div class="roadmap-item alt">
+                    <div class="roadmap-content">
+                        <div class="step-circle">4</div>
+                        <div class="roadmap-icon"><i class="fa-solid fa-gears"></i></div>
+                        <h3> Technical (Round 2) </h3>
+                        <p>Judges evaluate the working prototype and technical implementation.</p>
+                    </div>
+                    <span class="roadmap-point"></span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <div class="step-circle">5</div>
+                        <div class="roadmap-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                        <h3> Presentation (Round 3) </h3>
+                        <p>Teams present their solution and demonstrate the working model.</p>
+                    </div>
+                    <span class="roadmap-point"></span>
+                </div>
+                <div class="roadmap-item alt">
+                    <div class="roadmap-content">
+                        <div class="step-circle">6</div>
+                        <div class="roadmap-icon"><i class="fa-solid fa-trophy"></i></div>
+                        <h3>Winners</h3>
+                        <p>Top 3 teams are selected and awarded prizes.</p>
+                    </div>
+                    <span class="roadmap-point"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 5. Footer -->
+    <footer class="landing-footer">
+        <div class="container">
+            <div class="footer-icons">
+                <a href="mailto:csi@siddhartha.edu.in" aria-label="Email CSI"><span class="footer-icon">✉</span> <span class="footer-icon-label">Email: csi@siddhartha.edu.in</span></a>
+                <a href="https://www.instagram.com/csi.sahe" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><span class="footer-icon">📸</span> <span class="footer-icon-label">Instagram</span></a>
+                <a href="https://www.linkedin.com/company/computer-society-of-india-sahe/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><span class="footer-icon">💼</span> <span class="footer-icon-label">LinkedIn</span></a>
+                <a href="https://api.whatsapp.com/send/?phone=917337356269" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><span class="footer-icon">💬</span> <span class="footer-icon-label">WhatsApp</span></a>
+            </div>
+            <p class="landing-footer__fineprint">© InnovateX Hackathon · CSI SAHE &amp; GDG VRSEC</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
